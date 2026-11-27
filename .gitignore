@@ -1,0 +1,32 @@
+# Secrets et clés : ne jamais publier
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+key.properties
+local.properties
+.env
+.env.*
+google-services.json
+
+# Flutter / Dart
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+.gradle/
+.cxx/
+captures/
+GeneratedPluginRegistrant.java
+
+# Éditeurs et système
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
